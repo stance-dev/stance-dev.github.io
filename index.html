@@ -7,15 +7,22 @@
 </head>
 
 <body>
+	
+	<div class="center-text">
 
-  <div class='center-text heading typeout'>take a stance.</div>
+		<div class='heading typeout'>take a stance.</div>
+		<a href="https://stance-dev.github.io/demo"><button id="demo-btn">view demo</button></a>
+
+	</div>  
 
 <script src="js/typeout.min.js"></script>
-<script>typeout('.typeout', ['stop sexual harassment'], {
-  numLoops: 5,
-  callback: function(el) {
-    el.innerHTML += ".";
-  }
-});</script>
+<script>
+	typeout('.typeout', ['stop sexual harassment'], {
+  		numLoops: 5,
+  		callback: function(el) {
+    		el.innerHTML += ".";
+  		}
+	});
+</script>
 </body>
 </html>

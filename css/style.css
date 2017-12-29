@@ -15,13 +15,40 @@ span {
   color: #000;
 }
 
+a {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+
 .center-text {
   text-align: center;
 }
 
 .heading {
-  padding-top: 300px;
+  margin-top: 200px;
   font-size: 100px;
 }
 
+@media (max-width: 480px) {
+  .heading {
+    font-size: 50px;
+  }
+}
 
+#demo-btn {
+  font-size: 30px;
+  position: absolute;
+  bottom: 150px;
+  width: 200px;
+  height: 80px;
+  left: 50%;
+  margin-top: -40px; 
+  margin-left: -100px; 
+  border-radius: 4px;
+  background-color: #f85032ff;
+  border: 4px solid #fff;
+  color: #fff;
+}
